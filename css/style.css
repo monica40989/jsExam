@@ -1,0 +1,39 @@
+#navbar{
+    position: fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    z-index: 999999;
+    width: 22%;
+}
+ul li{
+    list-style: none;
+}
+a{
+    color: white;
+}
+i{
+    cursor: pointer;
+    display: inline-block !important;
+}
+.header-nav{
+    width: 20%;
+    
+    display: flex !important;
+}
+.item1,.item2,.item3,.item4,.item5{
+    opacity: 1;
+    padding-top: 25px;
+   
+}
+.meal{
+    overflow: hidden;
+}
+.layer{
+      top:100%;
+     transition:  top 1s;
+}
+.meal:hover .layer{
+    top: 0;
+}
+
